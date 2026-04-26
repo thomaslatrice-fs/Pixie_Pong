@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+}
+#game-container {
+  display: flex;
+  justify-content: center;
+}
