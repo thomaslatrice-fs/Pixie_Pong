@@ -1,10 +1,19 @@
 body {
-  margin: 0;
-  background-color: aqua;
-  color: white;
-  text-align: center;
+  /* Styles the whole page */
+  margin: 0; /* Removes default browser spacing */
+  background-color: #222; /* Makes the page background dark */
+  color: white; /* Makes text white */
+  font-family: Arial, sans-serif; /* Uses a simple font */
+  text-align: center; /* Centers the text */
 }
+
+h1 {
+  /* Styles the heading */
+  margin: 20px 0; /* Adds space above and below heading */
+}
+
 #game-container {
-  display: flex;
-  justify-content: center;
+  /* Styles the game area */
+  display: flex; /* Uses flexbox */
+  justify-content: center; /* Centers the game left and right */
 }
